@@ -1,0 +1,13 @@
+{
+  "name": "tab-limiter",
+  "version": "1.0",
+  "description": "Limits tabs so you don't open too many",
+  "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/", "tabs", "storage"],
+  "background": {
+	"scripts": ["background.js"]
+  },
+  "manifest_version": 2,
+  "browser_action": {
+  	"default_popup": "popup.html"
+  }
+}
